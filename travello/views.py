@@ -8,12 +8,14 @@ def index(request):
     dest1.desc="The city that never sleeps"
     dest1.price= 700
     dest1.img ='destination_1.jpg'
+    dest1.offer = True
 
     dest2 = Destinations()
     dest2.name="kolkata"
     dest2.desc="city of joy"
     dest2.price= 676
     dest2.img ='destination_2.jpg'
+    dest2.offer = False
 
     dest3 = Destinations()
     dest3.name="Bangalore"

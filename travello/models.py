@@ -7,4 +7,5 @@ class Destinations:
     img :str
     desc :str
     price :int
+    offer:bool
 
